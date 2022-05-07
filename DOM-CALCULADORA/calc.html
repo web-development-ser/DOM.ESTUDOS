@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+  <h1 style="text-align: center">CALCULADORA js</h1>
+  <div id="conteiner" class="conteiner">
+    
+    <input type="number" id="n1" placeholder="Número [ 1 ]">
+    <input type="number" id="n2" placeholder="Número [ 2 ]">
+    
+    <select name="sinal" id="sinal">
+      <option value="+">Colorcar +</option>
+      <option value="-">Retirar -</option>
+      <option value="*">Multiplicar *</option>
+      <option value="/">Dividir /</option>
+    </select>
+    
+    <button type="submit" onclick="result()">
+      RESULTADO
+    </button>
+    <button class="buttonTwo" type="submit" onclick="remov()">
+      REMOVE
+    </button>
+    
+  </div>
+  
+  <script src="calc.js"></script>
+</body>
+</html>

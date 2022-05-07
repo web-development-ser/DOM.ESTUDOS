@@ -1,0 +1,39 @@
+body {
+  background-color: gold;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner input {
+  padding: 13px 9px;
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+  border: solid silver 2px;
+}
+.conteiner #sinal {
+  padding: 10px 7px;
+  width: 50%;
+  background: white;
+  border-radius: 10px;
+  border: solid silver 2px;
+}
+.conteiner button, .buttonTwo {
+  padding: 12px 9px;
+  width: 60%;
+  background-color: green;
+  border-radius: 10px;
+  border: solid black 2px;
+  color: white;
+}
+.conteiner .buttonTwo {
+  background-color: #FF2B2D;
+}
+.conteiner input, #sinal, button, .buttonTwo {
+  margin-bottom: 13px;
+}
